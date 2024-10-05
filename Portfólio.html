@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet"> <!--Fonte Poppins-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!--Site de Icons-->
+    <title>Portfólio</title> 
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o CSS -->
+</head>
+
+<body>
+    <header>
+        <nav class="Menu"> 
+            <ul>
+                <li>
+                    <a href="#inicio" class="home-icon">
+                        <i class="fas fa-home"></i> <!-- Ícone Home -->
+                    </a>
+                </li> <!--Lista não ordenada, cabeçalho-->
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#redes-sociais">Redes Sociais</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+<main>
+    <section id="inicio" class="topo-do-site"> 
+        <div class="flex">
+            <div class="txt-topo-site">
+                <h1>Aline Henriques</h1>
+                <p>Web Developer</p>
+            </div>
+            <div class="img-topo-site">
+                <img src="./Imagens/Eu.png" alt="Aline">
+            </div>
+        </div>
+    </section>   
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#bfaea7" fill-opacity="1" d="M0,64L80,69.3C160,75,320,85,480,106.7C640,128,800,160,960,144C1120,128,1280,64,1360,32L1440,0L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+    </svg>  <!--Ondas-->
+ 
+    <section id="projetos" class="projetos"> <!--Classe de projetos-->
+        <div class="Interface">
+            <div class="flex">
+                <h2 class="titulo">Projetos</h2>
+            </div>
+            <div class="projetos-lista">
+                <div class="projeto-item">
+                    <h2>Projeto 1</h2>
+                    <div class="circulo"></div>
+                </div>
+                <div class="projeto-item">
+                    <h2>Projeto 2</h2>
+                    <div class="circulo"></div>
+                </div>
+                <div class="projeto-item">
+                    <h2>Projeto 3</h2>
+                    <div class="circulo"></div>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+    <div class="separator"></div> <!-- Linha separadora -->
+
+    <section id="contato" class="contato"> <!--Classe de Contato-->
+        <div class="Interface">
+            <h2 class="titulo contato-titulo">Contato</h2>
+            <form class="formulario-contato">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" rows="5" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div class="separator"></div> <!-- Linha separadora -->
+
+    <section id="redes-sociais" class="redes-sociais"> <!--Classe das Redes Sociais-->
+        <div class="Interface">
+            <h2 class="titulo redes-sociais-titulo">Redes Sociais</h2>
+            <div class="redes-lista">
+                <div class="rede-item">
+                    <a href="https://www.instagram.com/henriques_line/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="rede-item">
+                    <a href="https://www.linkedin.com/in/aline-henriques" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="rede-item">
+                    <a href="https://github.com/aline-henriques" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div class="rede-item">
+                    <a href="mailto:alinealbhenriques@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#bfaea7" fill-opacity="1" d="M0,64L80,69.3C160,75,320,85,480,106.7C640,128,800,160,960,144C1120,128,1280,64,1360,32L1440,0L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+        </svg>  <!--Ondas-->
+    </section>    
+    
+</main>
+</body>
+</html>
+

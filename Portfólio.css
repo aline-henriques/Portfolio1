@@ -1,0 +1,258 @@
+/* Seção Geral do Site */
+
+* { 
+    margin: 0; /*Zerar as margens padrão */
+    padding: 0; /*Zerar as paddings padrão */
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Fonte */
+}
+
+body { 
+    background-color: #e4e2d5; /* Cor de fundo do site */
+}
+
+.Interface {
+    max-width: 1280px;
+    margin: 0 auto; /* Centralizar a interface na tela */
+}
+
+h2.titulo {
+    color: #af9f97; /*Cor do título*/
+    font-size: 40px; /*Tamanho do título*/
+    text-align: center; /* Centralizar o título */
+}
+
+/* Seção do cabeçalho */
+
+header {
+    padding: 40px 4%; /*Espaçamento interno para o cabeçalho */
+}
+
+header nav ul {
+    list-style-type: none; /*Remover estilos padrões das listas*/
+    display: flex; 
+    justify-content: flex-end; /* Alinhamento da navegação à direita */
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 20px; /*Espaçamento entre os itens do cabeçalho */
+}
+
+header nav ul li a {
+    text-decoration: none; 
+    color: #f0eede; /* Cor do texto dos botões de navegação */
+    font-size: 18px; /* Tamanho da fonte dos botões de navegação */
+    padding: 10px 20px; /* Espaçamento interno nos botões */
+    background-color: #bfaea7; /* Cor de fundo dos botões */
+    border-radius: 30px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição na mudança de cor */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.497); /* Sombra aos botões */
+}
+
+header nav ul li a:hover {
+    background-color: #777; /* Cor de fundo dos botões ao passar o mouse */
+}
+
+header .Contato {
+    display: inline-block; 
+    margin-left: 20px; /* Espaçamento entre os botões */
+}
+
+/* Seção topo do site */
+
+section .topo-do-site {
+    padding: 60px 0; 
+    background-color: #f4f4f4; /* Cor de fundo */
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinhar itens */
+}
+
+.topo-do-site .flex {
+    align-items: center;
+    justify-content: center; /* Centralizar os itens */
+}
+
+.topo-do-site h1 {
+    font-size: 60px; /* Tamanho da fonte h1 */
+    color: #bfaea7; /* Cor do título h1 */
+    margin-bottom: -10px; /* Ajusta o espaço abaixo do h1 */
+}
+
+.topo-do-site p {
+    font-size: 35px; /* Tamanho da fonte do parágrafo */
+    color: #bfaea7; /* Cor da fonte do parágrafo */
+    margin-top: -10px; /* Espaço entre o título e o parágrafo */
+}
+
+.img-topo-site img {
+    width: 650px; /* Largura da imagem (eu) */
+    height: 650px; /* Altura da imagem (eu) */
+    border-radius: 50%; /* Arredondamento */
+    object-fit: cover; /* Imagem preencha a área sem distorção */
+    
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto; /* Centralizar a interface */
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centralizar o conteúdo */
+}
+
+/* Seção de projetos */
+
+section.projetos {
+    padding: 70px 0; /* Espaçamento ao redor da seção */
+}
+
+.projetos-lista {
+    display: flex; 
+    justify-content: space-around; /* Espaçamento entre os itens de projetos */
+    margin-top: 30px; /* Espaçamento acima da lista de projetos */
+}
+
+.projeto-item {
+    color: #bfaea7; /* Cor do texto dos itens de projeto */
+    font-size: 18px; /* Tamanho da fonte */
+    text-align: center; /* Alinhar o texto ao centro */
+    width: 400px; /* Largura dos itens de projeto */
+    height: 400px; /* Altura dos itens de projeto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centralizar o conteúdo dentro dos itens */
+    align-items: center;
+    margin: 0 20px; /* Espaçamento lateral entre os projetos */
+}
+
+.circulo {
+    width: 200px; /* Largura do círculo dos projetos */
+    height: 200px; /* Altura do círculo dos projetos */
+    background-color: #bfaea7; /* Cor de fundo do círculo */
+    border-radius: 50%; /* Arredondamento */
+    margin-top: 10px; /* Espaço entre o projeto e o círculo */
+}
+
+#projetos {
+    scroll-margin-top: 50px; /* Margem superior ao rolar até a seção de projetos */
+}
+
+/* Seção heading Contato */
+
+.contato-titulo {
+    margin-bottom: 40px; /* Espaço abaixo do título de contato */
+}
+
+/* Seção do formulário de contato */
+
+form.formulario-contato {
+    max-width: 600px; /* Lrgura máxima do formulário */
+    margin: 0 auto; /* Centralizar o formulário */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #bfaea7; /* Cor de fundo do formulário */
+    border-radius: 10px; /* Arredondamento dos cantos do formulário */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px; /* Espaçamento abaixo dos labels */
+    color: #ebe9e0; /* Cor do texto dos labels */
+    font-size: 16px; /* Tamanho da fonte dos labels */
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e4e2d5; 
+    color: #333; 
+}
+
+.form-group button {
+    background-color: #e4e2d5; /* Cor de fundo do botão envio */
+    color: #bfaea7; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none;
+    border-radius: 8px; /* Arredondamento do botão */
+    cursor: pointer; /* Cursor pointer no botão */
+    font-size: 18px; /* Tamanho da fonte do botão */
+}
+
+.form-group button:hover {
+    background-color: #837671; /* Cor de fundo do botão ao passar o mouse */
+}
+
+/* Seção Redes Sociais */
+
+.redes-sociais-titulo {
+    margin-top: 10px; /* Distância entre o título e o topo da seção */
+}
+
+.redes-lista {
+    display: flex;
+    justify-content: center; /* Centralizar os ícones das redes sociais */
+    margin-top: 20px;
+    margin-bottom: 150px; /* Espaço abaixo da seção de redes sociais */
+}
+
+.rede-item {
+    margin: 0 25px; /* Espaçamento lateral entre os itens */
+}
+
+.rede-item i {
+    font-size: 65px; /* Tamanho dos ícones de redes sociais */
+    color: #bfaea7; /* Cor inicial dos ícones */
+    transition: color 0.3s; /* Transição suave ao mudar a cor */
+}
+
+.rede-item a:hover i {
+    color: #837671; /* Cor dos ícones ao passar o mouse */
+}
+
+/* Linha separadora entre seções */
+
+.separator { 
+    border-top: 2.5px solid #bfaea7; /* Espessura e cor da linha */
+    margin: 70px 0; /* Espaçamento acima e abaixo da linha */
+}
+
+/* Seção ícone Home */
+
+.home-icon {
+    font-size: 30px; /* Tamanho do ícone home */
+    color: #e4e2d5; /* Cor inicial do ícone */
+    position: fixed; /* Fixar o ícone na tela */
+    top: 30px; /* Distância do topo da tela */
+    left: 30px; /* Distância da borda esquerda da tela */
+    cursor: pointer; /* Cursor pointer ao passar sobre o ícone */
+    transition: color 0.3s; /* Transição na cor do ícone */
+}
+
+.home-icon:hover {
+    color: #837671; /* Cor do ícone ao passar o mouse */
+}
+
+/* Seção Onda */
+
+svg {
+    display: block; /* Onda oocupa um bloco completo */
+    width: 100%; /* Largura da onda */
+    height: auto; /* Altura da onda */
+    margin-top: -200px; /* Espaçamento superior a onda*/
+}
+
